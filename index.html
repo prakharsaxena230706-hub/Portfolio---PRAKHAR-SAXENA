@@ -1,0 +1,776 @@
+<html lang="en" suppresshydrationwarning="true" data-qb-installed="true"><head><script type="text/javascript" src="/___vscode_livepreview_injected_script"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prakhar Saxena | Frontend Developer &amp; Prompt Engineering</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/index.min.js"></script>
+<style id="svelte-qryshm">.chatbotsplace-trigger.svelte-qryshm {display:flex;align-items:center;position:fixed;top:50%;right:0;transform:translateY(-50%);z-index:1000;box-shadow:0 0 5px #888;opacity:0.5;cursor:pointer;width:56px;height:32px;background:#fff;border-radius:25px 0 0 25px;padding:2px;transition:opacity 0.1s;}.chatbotsplace-trigger.svelte-qryshm:hover {opacity:1;}.chatbotsplace-trigger-tooltip.svelte-qryshm {visibility:hidden;width:80px;background-color:#555;color:#fff;text-align:center;padding:5px 0;border-radius:6px;
+
+    /* Position the tooltip text - see examples below! */position:absolute;z-index:1;bottom:125%;left:50%;margin-left:-50px;}.chatbotsplace-trigger-tooltip.svelte-qryshm::after {content:'';position:absolute;top:100%;left:50%;margin-left:-5px;border-width:5px;border-style:solid;border-color:#555 transparent transparent transparent;}.chatbotsplace-trigger.svelte-qryshm:hover .chatbotsplace-trigger-tooltip:where(.svelte-qryshm) {visibility:visible;}</style></head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar scrolled" id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                        <path d="M16 4L4 10L16 16L28 10L16 4Z" fill="url(#gradient1)"></path>
+                        <path d="M4 16L16 22L28 16" stroke="url(#gradient2)" stroke-width="2" stroke-linecap="round"></path>
+                        <path d="M4 22L16 28L28 22" stroke="url(#gradient3)" stroke-width="2" stroke-linecap="round"></path>
+                        <defs>
+                            <linearGradient id="gradient1" x1="4" y1="4" x2="28" y2="16">
+                                <stop offset="0%" stop-color="#6366f1"></stop>
+                                <stop offset="100%" stop-color="#8b5cf6"></stop>
+                            </linearGradient>
+                            <linearGradient id="gradient2" x1="4" y1="16" x2="28" y2="16">
+                                <stop offset="0%" stop-color="#8b5cf6"></stop>
+                                <stop offset="100%" stop-color="#ec4899"></stop>
+                            </linearGradient>
+                            <linearGradient id="gradient3" x1="4" y1="22" x2="28" y2="22">
+                                <stop offset="0%" stop-color="#ec4899"></stop>
+                                <stop offset="100%" stop-color="#f97316"></stop>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </span>
+                <span class="logo-text">Prakhar Saxena</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">
+                        <span class="nav-icon">🏠</span>
+                        <span class="nav-text">Home</span>
+                    </a></li>
+                <li><a href="#about" class="nav-link">
+                        <span class="nav-icon">👤</span>
+                        <span class="nav-text">About</span>
+                    </a></li>
+                <li><a href="#skills" class="nav-link active">
+                        <span class="nav-icon">⚡</span>
+                        <span class="nav-text">Skills</span>
+                    </a></li>
+                <li><a href="#projects" class="nav-link">
+                        <span class="nav-icon">💼</span>
+                        <span class="nav-text">Projects</span>
+                    </a></li>
+                <li><a href="#experience" class="nav-link">
+                        <span class="nav-icon">🎯</span>
+                        <span class="nav-text">Experience</span>
+                    </a></li>
+                <li><a href="#contact" class="nav-link contact-btn">
+                        <span class="nav-icon">📧</span>
+                        <span class="nav-text">Contact</span>
+                    </a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1" style="transform: translate(264.84px, 132.42px);"></div>
+            <div class="gradient-orb orb-2" style="transform: translate(529.68px, 264.84px);"></div>
+            <div class="gradient-orb orb-3" style="transform: translate(794.52px, 397.26px);"></div>
+        </div>
+        <div class="hero-content" style="transform: translateY(504px); opacity: 0.0326296;">
+            <div class="hero-text">
+                <div class="hero-badge">
+                    <span class="badge-icon">✨</span>
+                    <span class="badge-text">Available for Projects</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-line">Hi, I'm</span>
+                    <span class="title-name" data-text="Prakhar Saxena">Prakhar Saxena</span>
+                    <span class="title-role">Frontend Developer | Prompt Engineering Enthusiast</span>
+                </h1>
+                <p class="hero-description">
+                    Building the future with <strong class="highlight">Gen-AI &amp; Web3</strong>.
+                    I bridge the gap between logic and creative design.
+                </p>
+                <div class="hero-tags">
+                    <span class="tag">🤖 AI Agent Development</span>
+                    <span class="tag">💻 Web Development</span>
+                    <span class="tag">⚡ React &amp; Next.js</span>
+                    <span class="tag">🎨 UI/UX Design</span>
+                    <span class="tag">🏆 Hackathon Finalist</span>
+                    <span class="tag">🎓 Oracle Certified</span>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View My Work</span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M7 10L13 10M13 10L10 7M13 10L10 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Get In Touch</span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <!-- Animated Website Mockup 1 -->
+                <div class="website-mockup mockup-1">
+                    <div class="browser-window">
+                        <div class="browser-header">
+                            <div class="browser-dots">
+                                <span class="dot dot-red"></span>
+                                <span class="dot dot-yellow"></span>
+                                <span class="dot dot-green"></span>
+                            </div>
+                            <div class="browser-url">portfolio.dev <span class="browser-badge">Gen-AI</span></div>
+                        </div>
+                        <div class="browser-content browser-content--code">
+                            <div class="code-editor">
+                                <div class="code-editor-header">PromptEngineer.tsx</div>
+                                <div class="code-editor-body">
+                                    <pre class="code-block"><code><span class="code-line"><span class="code-keyword">import</span> { useState } <span class="code-keyword">from</span> <span class="code-string">'react'</span>;</span>
+<span class="code-line"><span class="code-keyword">import</span> { useLLM } <span class="code-keyword">from</span> <span class="code-string">'@ai-sdk/react'</span>;</span>
+<span class="code-line"></span>
+<span class="code-line"><span class="code-keyword">export function</span> <span class="code-fn">PromptEngineer</span>() {</span>
+<span class="code-line">  <span class="code-keyword">const</span> [prompt, setPrompt] = <span class="code-fn">useState</span>(<span class="code-string">''</span>);</span>
+<span class="code-line">  <span class="code-keyword">const</span> { response, stream } = <span class="code-fn">useLLM</span>();</span>
+<span class="code-line"></span>
+<span class="code-line">  <span class="code-keyword">const</span> askAI = () =&gt; <span class="code-fn">stream</span>({ prompt });</span>
+<span class="code-line"></span>
+<span class="code-line">  <span class="code-keyword">return</span> (</span>
+<span class="code-line">    &lt;div&gt;</span>
+<span class="code-line">      &lt;input <span class="code-attr">value</span>={prompt} <span class="code-attr">onChange</span>={e =&gt; <span class="code-fn">setPrompt</span>(e.target.value)} /&gt;</span>
+<span class="code-line">      &lt;button <span class="code-attr">onClick</span>={askAI}&gt;Ask AI&lt;/button&gt;</span>
+<span class="code-line">      &lt;p&gt;{response}&lt;/p&gt;</span>
+<span class="code-line">    &lt;/div&gt;</span>
+<span class="code-line">  );</span>
+<span class="code-line">}</span></code></pre>
+                                    <div class="code-cursor"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Animated Website Mockup 2 -->
+                <div class="website-mockup mockup-2">
+                    <div class="browser-window">
+                        <div class="browser-header">
+                            <div class="browser-dots">
+                                <span class="dot dot-red"></span>
+                                <span class="dot dot-yellow"></span>
+                                <span class="dot dot-green"></span>
+                            </div>
+                            <div class="browser-url">dashboard.app</div>
+                        </div>
+                        <div class="browser-content browser-content--solark">
+                            <div class="solark-layout">
+                                <!-- Header Navigation -->
+                                <div class="solark-header">
+                                    <div class="solark-logo">
+                                        <div class="logo-circle"></div>
+                                        <span class="logo-text">SOL-ARK</span>
+                                    </div>
+                                    <div class="solark-nav">
+                                        <span class="nav-link">OBSERVATORY</span>
+                                        <span class="nav-link">FORECAST</span>
+                                        <span class="nav-link">IMPACT</span>
+                                        <span class="nav-link">3D-TOUR</span>
+                                        <span class="nav-link">ABOUT</span>
+                                    </div>
+                                    <div class="solark-console-btn">CONSOLE LOGIN</div>
+                                </div>
+
+                                <!-- System Status Badge -->
+                                <div class="solark-status">
+                                    <span class="status-dot"></span>
+                                    <span class="status-text">SYSTEM ACTIVE // SOL-ARK V4.0.2</span>
+                                </div>
+
+                                <!-- Main Title -->
+                                <div class="solark-title">
+                                    <div class="title-line-1">MISSION</div>
+                                    <div class="title-line-2">
+                                        <span class="title-char">S</span>
+                                        <span class="title-char">O</span>
+                                        <span class="title-char orange-ring">L</span>
+                                        <span class="title-char">-</span>
+                                        <span class="title-char orange-ring">A</span>
+                                        <span class="title-char">R</span>
+                                        <span class="title-char">K</span>
+                                    </div>
+                                </div>
+
+                                <!-- Description -->
+                                <div class="solark-description">
+                                    The ultimate defense layer against stellar instability. Protecting Earth's orbital
+                                    infrastructure through predictive magnetosphere analysis.
+                                </div>
+
+                                <!-- CTA Buttons -->
+                                <div class="solark-cta">
+                                    <div class="cta-primary">START SHIELDING →</div>
+                                    <div class="cta-secondary">READ WHITEPAPER</div>
+                                </div>
+
+                                <!-- AI Brain Icon (Bottom Right) -->
+                                <div class="solark-ai-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                        <path d="M9.5 2A2.5 2.5 0 0 1 12 4.5v15a2.5 2.5 0 0 1-4.96.44L2.5 19.5" stroke-width="1.5"></path>
+                                        <path d="M14.5 2A2.5 2.5 0 0 0 12 4.5v15a2.5 2.5 0 0 0 4.96.44L21.5 19.5" stroke-width="1.5"></path>
+                                    </svg>
+                                </div>
+
+                                <!-- Background Stars -->
+                                <div class="solark-stars"></div>
+
+                                <!-- Orange Radial Gradient -->
+                                <div class="solark-glow"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Animated Website Mockup 3 - Hand Gesture Pointer -->
+                <div class="website-mockup mockup-3">
+                    <div class="browser-window">
+                        <div class="browser-header">
+                            <div class="browser-dots">
+                                <span class="dot dot-red"></span>
+                                <span class="dot dot-yellow"></span>
+                                <span class="dot dot-green"></span>
+                            </div>
+                            <div class="browser-url">🖐️ Pointer Control</div>
+                        </div>
+                        <div class="browser-content pointer-content">
+                            <div class="pointer-layout">
+                                <!-- Tracking bar -->
+                                <div class="tracking-bar">
+                                    <div class="tracking-line"></div>
+                                    <div class="tracking-dot"></div>
+                                </div>
+
+                                <!-- Video feed placeholder -->
+                                <div class="video-feed">
+                                    <div class="hand-gesture">
+                                        <div class="gesture-icon">👆</div>
+                                        <div class="gesture-label">Hand Tracking Active</div>
+                                    </div>
+
+                                    <!-- Animated tracking points -->
+                                    <div class="tracking-point point-1"></div>
+                                    <div class="tracking-point point-2"></div>
+                                    <div class="tracking-point point-3"></div>
+                                    <div class="tracking-point point-4"></div>
+                                    <div class="tracking-point point-5"></div>
+                                </div>  
+
+                                <!-- Status info -->
+                                <div class="pointer-status">
+                                    <div class="status-item">
+                                        <span class="status-icon">📹</span>
+                                        <span class="status-text">CV2 Active</span>
+                                    </div>
+                                    <div class="status-item">
+                                        <span class="status-icon">🎯</span>
+                                        <span class="status-text">Tracking</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Animated Website Mockup 4 - Gesture Art Interface -->
+                <div class="website-mockup mockup-4">
+                    <div class="browser-window">
+                        <div class="browser-header">
+                            <div class="browser-dots">
+                                <span class="dot dot-red"></span>
+                                <span class="dot dot-yellow"></span>
+                                <span class="dot dot-green"></span>
+                            </div>
+                            <div class="browser-url">gesture-art.app</div>
+                        </div>
+                        <div class="browser-content browser-content--gesture">
+                            <div class="gesture-layout">
+                                <div class="gesture-header">Gesture Art Interface</div>
+                                <div class="gesture-nav">
+                                    <span class="gesture-btn">Helical Loop</span>
+                                    <span class="gesture-btn">Cyber Flower</span>
+                                    <span class="gesture-btn">Dot Matrix</span>
+                                    <span class="gesture-btn">Aurora Waves</span>
+                                    <span class="gesture-btn">Particle Fountain</span>
+                                    <span class="gesture-btn">Mandala</span>
+                                    <span class="gesture-btn active">Kaleidoscope</span>
+                                    <span class="gesture-btn">Spiral Galaxy</span>
+                                    <span class="gesture-btn">Neon Pulse</span>
+                                    <span class="gesture-btn">Magnetism</span>
+                                </div>
+                                <div class="gesture-canvas">
+                                    <div class="gesture-circle circle-red"></div>
+                                    <div class="gesture-circle circle-orange"></div>
+                                    <div class="gesture-circle circle-lime"></div>
+                                    <div class="gesture-circle circle-cyan"></div>
+                                    <div class="gesture-circle circle-blue"></div>
+                                    <div class="gesture-circle circle-purple"></div>
+                                    <svg class="gesture-hand" viewBox="0 0 80 100" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round">
+                                        <path d="M40 20 L40 55 L35 75 L45 75 L50 55 M40 20 L50 15 L55 8 L52 18 L48 28 M40 20 L55 22 L62 18 L58 28 L52 38 M40 20 L52 42 L58 48 L55 52 L48 48 M40 20 L42 48 L38 62 L35 72"></path>
+                                        <path d="M25 45 L18 52 L22 58 L30 52 M48 28 L52 22 M52 38 L58 32 M48 48 L52 45"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">01</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <div class="image-border"></div>
+                        <img src="Prakhar_DP.jpeg" alt="Prakhar Saxena - Profile Picture" class="profile-image">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3 class="about-subtitle">Emerging Developer building in Web &amp; Gen-AI, expanding into DevOps &amp;
+                        Blockchain</h3>
+                    <p class="about-description">
+                        I am a B.Tech CSE undergraduate and a National Grand Finalist (Top 3%) at the Smart India
+                        Hackathon 2026 for our project, 'Sol-Ark.' I specialize in bridging the gap between clean
+                        full-stack development and cutting-edge technologies. My core expertise lies in Python,
+                        React.js, and Gen-AI integration, backed by specialized training in AR/VR development. Whether I
+                        am architecting a new web application, building intuitive user experiences, or exploring the
+                        capabilities of modern LLMs, I am driven by shipping scalable, innovative solutions.
+                    </p>
+                    <p class="about-description">
+                        When I'm not coding, you'll find me exploring new technologies, contributing to
+                        open-source projects, or sharing knowledge with the developer community.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item" style="opacity: 1; transform: translateY(0px);">
+                            <div class="stat-number" data-target="10" style="transform: scale(1);">0</div>
+                            <div class="stat-label">PROJECTS</div>
+                        </div>
+                        <div class="stat-item" style="opacity: 1; transform: translateY(0px);">
+                            <div class="stat-number" data-target="3" style="transform: scale(1);">0</div>
+                            <div class="stat-label">Hackathons  Participated</div>
+                        </div>
+                        <div class="stat-item" style="opacity: 1; transform: translateY(0px);">
+                            <div class="stat-number" data-target="5" style="transform: scale(1);">0</div>
+                            <div class="stat-label">CERTIFICATIONS</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">02</span>
+                <h2 class="section-title">Skills &amp; Technologies</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title">Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="90" style="opacity: 1; transform: translateY(0px);">
+                            <div class="skill-name">React</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 0%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="95" style="opacity: 1; transform: translateY(0px);">
+                            <div class="skill-name">JavaScript</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 0%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="100" style="opacity: 1; transform: translateY(0px);">
+                            <div class="skill-name">HTML 5</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 0%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="100" style="opacity: 1; transform: translateY(0px);">
+                            <div class="skill-name">Tailwind CSS</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 0%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="85" style="opacity: 1; transform: translateY(0px);">
+                            <div class="skill-name">Node.js</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 0%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="80" style="opacity: 1; transform: translateY(0px);">
+                            <div class="skill-name">Python</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 0%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="85" style="opacity: 1; transform: translateY(0px);">
+                            <div class="skill-name">C/C++</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 0%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="82" style="opacity: 1; transform: translateY(0px);">
+                            <div class="skill-name">MongoDB</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 0%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Tools &amp; Others</h3>
+                    <div class="skill-items">
+                        <div class="skill-item" data-skill="90" style="opacity: 1; transform: translateY(0px);">
+                            <div class="skill-name">Claude/Cursor/Gemini/......</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 0%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="48" style="opacity: 1; transform: translateY(0px);">
+                            <div class="skill-name">Generative AI</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 0%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="95" style="opacity: 1; transform: translateY(0px);">
+                            <div class="skill-name">Postman</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 0%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item" data-skill="80" style="opacity: 1; transform: translateY(0px);">
+                            <div class="skill-name">Github Copilot</div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 0%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">03</span>
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card project-card-solark">
+                    <div class="project-image project-image-solark">
+                        <div class="project-overlay">
+                            <a href="https://kaust22.github.io/Sol-Ark/" class="project-link">View Project</a>
+                            <a href="https://github.com/Kaust22/Sol-Ark" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Mission Sol-Ark</h3>
+                        <p class="project-description">
+                            A Top 200 National Grand Finalist out of 6,000+ teams, Sol-Ark is a space storm prediction
+                            platform integrating an interactive 3D virtual tour and real-time email alert architecture.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Three.js</span>
+                            <span class="tag">SMTP Library + Gmail</span>
+                            <span class="tag">Predictive Analysis</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image project-image-ai-mouse">
+                        <div class="project-overlay">
+                            <a href="https://prakharsaxena230706-hub.github.io/AI-Virtual-Mouse/" class="project-link">View Project</a>
+                            <a href="https://prakharsaxena230706-hub.github.io/AI-Virtual-Mouse/" class="project-link">GitHub</a>
+                        </div>
+
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AI Hand Gesture Mouse</h3>
+                        <p class="project-description">
+                            An AI-driven virtual mouse that leverages computer vision and real-time hand-tracking
+                            algorithms to control the system cursor and execute precise clicks entirely through a
+                            webcam.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">OpenCV</span>
+                            <span class="tag">MediaPipe</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image project-image-ai-art">
+                        <div class="project-overlay">
+                            <a href="https://prakharsaxena230706-hub.github.io/AI-Hand-Gen-Art/" class="project-link">View Project</a>
+                            <a href="https://github.com/prakharsaxena230706-hub/AI-Hand-Gen-Art/tree/main" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AI Hand Gen-Art</h3>
+                        <p class="project-description">
+                            A touchless creative application that translates live webcam hand-tracking into dynamic,
+                            AI-generated digital art, completely eliminating the need for traditional hardware
+                            peripherals.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">OpenCV</span>
+                            <span class="tag">MediaPipe</span>
+                            <span class="tag">Generative AI</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image project-image-hostel">
+                        <div class="project-overlay">
+                            <a href="https://prakharsaxena230706-hub.github.io/Hostel-Managment-System/index.html" class="project-link">View Project</a>
+                            <a href="https://github.com/prakharsaxena230706-hub/Hostel-Managment-System?tab=readme-ov-file" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Hostel.io</h3>
+                        <p class="project-description">
+                            A scalable web application designed to optimize student housing workflows. It automates
+                            digital room assignments, manages facility states, and provides administrators with an
+                            intuitive oversight dashboard.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">WebDev</span>
+                            <span class="tag">MongoDB</span>
+                            <span class="tag">CRUD Operation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">04</span>
+                <h2 class="section-title">Experience</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Feb 2026 - Present</div>
+                        <h3 class="timeline-title">National Grand Finalist (Top 3%)</h3>
+                        <h4 class="timeline-company">@Hyperspace Innovation Hackathon (2026)</h4>
+                        <h2 class="timeline-company">Powered by ISRO, DRDO, MICROSOFT and AWS</h2>
+                        <p class="timeline-description">
+
+                            Engineered 'Sol-Ark', a high-performance space storm prediction system featuring a real-time
+                            email alert architecture and an immersive 3D virtual tour.
+                        </p>
+                        <ul class="timeline-list">
+                            <li>Outperformed 6,000+ competing teams nationwide to secure a Top 200 Grand Finale ranking.
+                            </li>
+                            <li>Architected the automated email alert system, ensuring reliable and instantaneous
+                                critical notifications.</li>
+                            <li>Integrated a responsive 3D virtual environment and predictive analytics into a
+                                full-stack web application.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Jan 2026 - Present</div>
+                        <h3 class="timeline-title">Cloud Computing &amp; AI Practitioner</h3>
+                        <h4 class="timeline-company">Google Cloud Skills Program</h4>
+                        <p class="timeline-description">
+                            Executed hands-on cloud architecture and generative AI deployments within live Google Cloud
+                            Platform (GCP) sandbox environments, solving complex infrastructure challenges.
+                        </p>
+                        <ul class="timeline-list">
+                            <li>Earned the "Introduction to Generative AI" skill badge, demonstrating a practical
+                                understanding of LLM integration and deployment.</li>
+                            <li>Provisioned and managed scalable cloud resources, APIs, and networking configurations
+                                across multiple specialized GCP Qwiklabs.</li>
+                            <li>Competed in the Google Cloud Arcade to engineer real-time solutions for enterprise-level
+                                cloud infrastructure and data analytics workflows.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2025 - Ongoing</div>
+                        <h3 class="timeline-title">DSA Journey</h3>
+                        <h4 class="timeline-company">Independent Engineering Development</h4>
+                        <p class="timeline-description">
+                            Rigorously training core computer science fundamentals and logical reasoning through the
+                            deep study of Data Structures and Algorithms (DSA), prioritizing solution optimization and
+                            pattern recognition over mere completion volume.
+                        </p>
+                        <ul class="timeline-list">
+                            <li>Deconstructing high-quality, complex algorithmic challenges to master underlying system
+                                logic, time-space complexity limits, and edge-case management.</li>
+                            <li>Engineering foundational data structures from scratch, applying advanced sorting
+                                algorithms and mathematical logic across C and Python.</li>
+                            <li>Strengthening structural thinking to ensure future full-stack and Generative AI
+                                applications are architected for maximum scalability and computational efficiency.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">05</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 class="contact-subtitle">Let's Connect</h3>
+                    <p class="contact-description">
+                        I'm always open to discussing new projects, creative ideas,
+                        or opportunities to be part of your visions.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div>
+                                <h4>Email</h4>
+                                <p><a href="prakharsaxena230706@gmail.com">prakharsaxena230706@gmail.com</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📱</div>
+                            <div>
+                                <h4>Mobile(Whatsapp)</h4>
+                                <p>+91 8077824227</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Greater Noida, Uttar Pradesh (INDIA)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/prakharsaxena230706-hub " class="social-link" aria-label="GitHub">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path>
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/in/prakhar-saxena-linked-in4261/" class="social-link" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+                            </svg>
+                        </a>
+                        <a href="https://x.com/Prakhar_2006X" class="social-link" aria-label="Twitter">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"></path>
+                            </svg>
+                        </a>
+                        <a href="https://mail.google.com/mail/?view=cm&to=prakharsaxena230706@gmail.com" class="social-link" aria-label="Email">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"></path>
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/_prakhars_1_1" class="social-link" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" fill="none" stroke="currentColor" stroke-width="1.5"></rect>
+                                <circle cx="12" cy="12" r="4.5" fill="none" stroke="currentColor" stroke-width="1.5"></circle>
+                                <circle cx="17.5" cy="6.5" r="1" fill="currentColor"></circle>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required="">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required="">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required="">
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required=""></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <span>Send Message</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <line x1="22" y1="2" x2="11" y2="13"></line>
+                            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>© 2026 Prakhar Saxena. All rights reserved.</p>
+                <p>Built with passion and modern web technologies.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+
+
+<div></div><!----></body><chatgpt-sidebar data-rendered="true" data-gpts-theme="light"></chatgpt-sidebar></html>
