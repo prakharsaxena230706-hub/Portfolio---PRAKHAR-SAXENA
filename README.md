@@ -1,115 +1,31 @@
-# Portfolio Website
+# 🚀 Prakhar Saxena | Developer Portfolio
 
-A modern, animated portfolio website for Computer Science & Engineering professionals. Built with HTML, CSS, and JavaScript, featuring stunning animations and unique interactive elements.
+Welcome to the source code of my personal portfolio. I am a 2nd-year B.Tech CSE student focused on bridging the gap between intelligent AI models and scalable web interfaces. 
 
-## 🚀 Features
+🔗 **Live Site:** https://prakharsaxena230706-hub.github.io/Portfolio---PRAKHAR-SAXENA/
 
-- **Modern Design**: Clean, professional design with dark theme
-- **Advanced Animations**: Smooth scroll animations, parallax effects, and interactive elements
-- **Responsive Layout**: Fully responsive design that works on all devices
-- **Multiple Sections**:
-  - Hero section with animated background
-  - About section with statistics
-  - Skills section with animated progress bars
-  - Projects showcase with hover effects
-  - Experience timeline
-  - Contact form
-- **Smooth Navigation**: Fixed navbar with smooth scrolling
-- **Interactive Elements**: Hover effects, animations, and transitions throughout
+## 🧠 The Vision
+I don't just study technology; I build with it. My core focus lies in integrating Generative AI into practical web applications, mastering core computer science principles, and architecting systems that are both innovative and efficient.
 
-## 📁 Project Structure
+## 💻 Technical Arsenal
+* **Languages:** Python, C, JavaScript, HTML/CSS
+* **Core Engineering:** Data Structures & Algorithms, Computer Organization & Architecture (COA)
+* **Cloud & AI:** Generative AI integrations, Google Cloud Platform
+* **Tools & DevOps:** Git, GitHub, Deployment Pipelines
 
-```
-My_Portfolio/
-├── index.html      # Main HTML file
-├── styles.css      # All styles and animations
-├── script.js       # JavaScript functionality
-├── package.json    # Project configuration
-└── README.md       # This file
-```
+## 🏆 Highlighted Work
+* **Sol-Ark:** A space storm prediction platform. 
+  * *Achievement:* Selected for the Grand Finale (Top 200 out of 6,000 teams) in a national hackathon.
+* **YouTube Channels Suggester:** An AI-driven web application designed to recommend hyper-relevant content creators using intelligent prompt parsing.
+* **Web Interfaces:** Responsive, high-performance UI/UX development showcased throughout this portfolio.
 
-## 🛠️ Getting Started
+## 📜 Continuous Edge
+* **Google Cloud Arcade:** Earned the *Introduction to Generative AI* completion badge.
+* **Open Source:** Active development and version control on [GitHub](https://github.com/prakharsaxena230706-hub).
 
-### Prerequisites
+## 🛠️ Local Setup
+To run this portfolio environment locally:
 
-- A modern web browser (Chrome, Firefox, Safari, Edge)
-- Node.js (optional, for development server)
-
-### Installation
-
-1. Clone or download this repository
-2. Open `index.html` in your browser, or
-
-### Running Locally
-
-Using npm:
-```bash
-npm install
-npm start
-```
-
-Or using live-server:
-```bash
-npm run dev
-```
-
-The portfolio will open automatically in your default browser at `http://localhost:8080`
-
-## 🎨 Customization
-
-### Personal Information
-
-1. **Name**: Update the `data-text` attribute in `.title-name` in `index.html`
-2. **About Section**: Edit the description in the About section
-3. **Skills**: Modify skill items and percentages in the Skills section
-4. **Projects**: Update project cards with your actual projects
-5. **Experience**: Edit timeline items with your work experience
-6. **Contact**: Update contact information and social links
-
-### Colors
-
-Edit CSS variables in `styles.css`:
-```css
-:root {
-    --primary-color: #6366f1;
-    --secondary-color: #8b5cf6;
-    --accent-color: #ec4899;
-    /* ... more variables */
-}
-```
-
-### Animations
-
-All animations are defined in `styles.css`. You can adjust:
-- Animation durations
-- Easing functions
-- Keyframe values
-- Transition effects
-
-## 📱 Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
-## 🎯 Future Enhancements
-
-- Add more interactive features
-- Integrate with backend for contact form
-- Add blog section
-- Include testimonials section
-- Add dark/light theme toggle
-- Implement more advanced animations
-
-## 📝 License
-
-MIT License - feel free to use this portfolio for your own projects!
-
-## 👨‍💻 Author
-
-Your Name - Computer Science & Engineer
-
----
-
-Built with ❤️ using modern web technologies
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/prakharsaxena230706-hub/Portfolio---PRAKHAR-SAXENA.git
